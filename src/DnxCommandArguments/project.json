@@ -1,0 +1,26 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "DnxCommandArguments Console Application",
+  "authors": [ "James" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "dependencies": {
+    "Microsoft.Dnx.Runtime.Abstractions": "1.0.0-*",
+    "Microsoft.Framework.CommandLineUtils.Sources": { "version": "1.0.0-*", "type": "build" }
+  },
+
+  "commands": {
+    "sample-fu": "DnxCommandArguments"
+  },
+
+  "frameworks": {
+    "dnx451": { },
+    "dnxcore50": {
+      "dependencies": {
+          "System.Console": "4.0.0-beta-*"
+      }
+    }
+  }
+}
